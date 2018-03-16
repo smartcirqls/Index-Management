@@ -1,0 +1,11 @@
+require([ "splunkjs/mvc",
+          "splunkjs/mvc/searchmanager",
+          "splunkjs/mvc/simplexml/ready!"
+      ], function (mvc, SearchManager) {
+
+	 $("#refresh").on("click", function(){
+	var Username = document.getElementById("username").value;
+	var Password = document.getElementById("password").value;
+	alert(Username+":"+Password);
+	});
+	});
