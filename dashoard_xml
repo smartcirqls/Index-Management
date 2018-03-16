@@ -1,0 +1,13 @@
+<dashboard script="testindexapp.js">
+  <label>SplunkIndexingApp</label>
+  <row>
+    <html>
+    <form>
+      Username : <input type="text" id="username"></input><br/>
+      Password : <input type="text" id="password"></input><br/>
+      <input type="button" id="refresh" value="Submit"></input>
+    </form>
+
+    </html>
+  </row>
+</dashboard>
